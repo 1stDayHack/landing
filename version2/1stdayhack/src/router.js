@@ -25,22 +25,22 @@ export default new Router({
     {
       path: "/tracks",
       name: "tracks",
-      component: () => import('./views/Tracks.vue')
+      component: () => import("./views/Tracks.vue")
     },
     {
       path: "/schedule",
       name: "schedule",
-      component: () => import('./views/Schedule.vue')
+      component: () => import("./views/Schedule.vue")
     },
     {
       path: "/sponsorship",
       name: "sponsorship",
-      component: () => import('./views/Sponsorship.vue')
+      component: () => import("./views/Sponsorship.vue")
     },
     {
       path: "/sign-up",
       name: "signup",
-      component: () => import('./views/Signup.vue')
+      component: () => import("./views/Signup.vue")
     }
   ]
 });

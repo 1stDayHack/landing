@@ -2,11 +2,14 @@
         <v-app-bar app color="blue accent-3" dark>
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             <v-spacer class="d-block d-md-none"></v-spacer>
+            <router-link to="/tracks">
             <v-toolbar-title class="headline">
-                <div class="pt-2 d-inline-block">
-                    {{appTitle}}
-                </div>
-            </v-toolbar-title>
+                    <div class="pt-2 d-inline-block">
+                        {{appTitle}}
+                    </div>
+                </v-toolbar-title>
+            </router-link>
+                
 		    <v-spacer></v-spacer>
             <v-toolbar-items class="mx-2 d-none d-md-block">
                 <v-btn text>About</v-btn>
@@ -24,7 +27,9 @@
                 <v-list dense>
                     <v-list-item v-for="(item, index) in items" :key="index">
                         <v-list-item-content>
-                            {{item.title}}
+                            <router-link to="/tracks">
+                                {{item.title}}
+                            </router-link>
                         </v-list-item-content>
                     </v-list-item>
                 </v-list>
@@ -52,4 +57,8 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: white;
+    text-decoration: none;
+}
 </style>
