@@ -1,22 +1,31 @@
 <template>
     <span>
-        <home-hero></home-hero>
-        <home-details></home-details>
-        <home-plans></home-plans>
+        <hero></hero>
+        <AboutFirstday></AboutFirstday>
+        <TentativeTracks></TentativeTracks>
+        <Schedule></Schedule>
+        <Sponsorship></Sponsorship>
+        <Team></Team>
     </span>
 </template>
 
 <script>
-import HomeHero from '@/components/HomeHero';
-import HomeDetails from '@/components/HomeDetails';
-import HomePlans from '@/components/HomePlans';
+import Hero from '@/components/Hero';
+import AboutFirstday from '@/components/AboutFirstDayHack';
+import TentativeTracks from '@/components/TentativeTracks';
+import Schedule from '@/components/Schedule';
+import Sponsorship from '@/components/Sponsorships';
+import Team from '@/components/Team';
 
 export default {
-    name: 'home',
+    name: 'Home',
     components: {
-        HomeHero,
-        HomeDetails,
-        HomePlans
+        Hero,
+        AboutFirstday,
+        TentativeTracks,
+        Schedule,
+        Sponsorship,
+        Team
     }
 }
 </script>

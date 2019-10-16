@@ -97,12 +97,7 @@
 
 <script>
 export default {
-    name: 'HomePlans',
-    methods: {
-        showRecipes(plan) {
-            this.$store.dispatch('getRecipes', plan);
-        }
-    }
+    name: 'TentativeTracks'
 };
 </script>
 

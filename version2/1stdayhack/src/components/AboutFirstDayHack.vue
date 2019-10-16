@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: 'HomeDetails'
+    name: 'AboutFirstday'
 }
 </script>
 
