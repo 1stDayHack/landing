@@ -1,12 +1,12 @@
 <template>
     <v-container>
-        <v-layout-column>
+        <v-layout>
             <v-flex class="display-2 text-xs-center my-5">Title</v-flex>
             <v-flex>
                 <div class="headline mt-3">lorem ipsum</div>
                 <p class="subheading mt-3">lorem ipsum</p>
             </v-flex>
-        </v-layout-column>
+        </v-layout>
     </v-container>
 </template>
 
@@ -17,5 +17,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
