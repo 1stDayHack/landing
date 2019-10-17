@@ -1,6 +1,6 @@
 <template>
     <span>
-        <hero></hero>
+        <Hero></Hero>
         <AboutFirstday></AboutFirstday>
         <TentativeTracks></TentativeTracks>
         <Schedule></Schedule>
