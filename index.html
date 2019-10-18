@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/brand/small-logo.png" type="image/png">
-	<title>1st Day Hack</title>
+	<title>1stDayHack</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
@@ -24,28 +24,33 @@
 	<header class="header_area">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<a class="navbar-brand" href="index.html"><img src="img/brand/logo.png" width="50%" class="d-inline-block align-top" alt=""></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-					aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="nav navbar-nav menu_nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="">Schedule</a></li>
-						<li class="nav-item"><a class="nav-link" href="">Sponsorships</a></li>
-						<li class="nav-item"><a class="nav-link" href="">The Team</a></li>
-						<li class="nav-item">
-							<a href="#" class="nav-link py-0 px-4 mb-0" id="signup-btn">
-								Sign Up
-							</a>
-						</li>
-					</ul>
+				<div class="container box_1620 mb-2">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/brand/logo.png" width="50%"
+							class="d-inline-block align-top" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#tracks">Tracks</a></li>
+							<li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link" href="#sponsorship">Sponsorships</a></li>
+							<li class="nav-item"><a class="nav-link" href="#team">The Team</a></li>
+							<li class="nav-item">
+								<a href="#" class="nav-link"
+									style="border-bottom-width: 5px; border-bottom-color: #f81b84; border-bottom-style:double;">
+									Sign Up
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		</div>
@@ -58,10 +63,7 @@
 			<div class="container">
 				<div class="banner_content" style="margin-top: -150px;">
 					<h2>1st Day Hack</h2>
-					<p>1stDayHack is a hackathon dedicated to the secondary school youths of Malaysia with an aim of
-						providing them with opportunities to grow beyond the usual schooling curricular with practical
-						tech projects.</p>
-					<!--						<a class="banner_btn" href="#">View More Details</a>-->
+					<h3>One of the few hackathons in Malaysia that is solely focus on educating and training highschool students about computer technology.</h3>
 				</div>
 			</div>
 		</div>
@@ -73,15 +75,11 @@
 		<div class="container">
 			<div class="event_time_inner">
 				<div class="row">
-					<div class="col-lg-6">
-						<div class="event_text">
-							<h3 class="text-pink">The Event Will Start in</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-								incididunt ut labore.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-12 col-md-12">
 						<div class="timer_inner">
+							<div class="event_text">
+								<h3 class="text-pink">The hackathon will launch in</h3>
+							</div>
 							<div id="timer" class="timer">
 								<div class="timer__section days">
 									<div class="timer__number" style="color: #43c0f6"></div>
@@ -109,7 +107,7 @@
 	<!--================End Event Time Area =================-->
 
 	<!--================Welcome Area =================-->
-	<section class="welcome_area pad_btm">
+	<section class="welcome_area pad_btm" id="about">
 		<div class="container">
 			<div class="welcome_inner row">
 				<div class="col-lg-5">
@@ -121,7 +119,7 @@
 					<div class="welcome_text">
 						<h3>What is 1stDayHack?</h3>
 						<p>
-							<strong class="text-pink">1stDayHack</strong> is one of the first hackathon in Malaysia that
+							<strong class="text-pink">1stDayHack</strong> is one of the few hackathons in Malaysia that
 							caters only to secondary high school students. We want to inspire, engage and give hands-on
 							experience to the next generation of Malaysian youths in the cutting edge of modern
 							computing technology - <strong class="text-pink">Machine Learning</strong>. 60 students from
@@ -143,7 +141,7 @@
 	</section>
 	<!--================End Welcome Area =================-->
 
-	<section class="welcome_area pad_btm">
+	<section class="welcome_area pad_btm" id="tracks">
 		<div class="container">
 			<div class="main_title">
 				<h2>Tentative Tracks</h2>
@@ -175,20 +173,20 @@
 	</section>
 
 	<!--================Event Schedule Area =================-->
-	<section class="event_schedule_area p_120">
+	<section class="event_schedule_area p_120" id="schedule">
 		<div class="container">
 			<div class="main_title">
 				<h2>Event Schedule</h2>
 			</div>
 			<div class="event_schedule_inner">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
+				<ul class="nav nav-tabs row mx-0 text-center" id="myTab" role="tablist">
+					<li class="nav-item col-md-6 px-0">
 						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-							aria-controls="home" aria-selected="true">Day 01</a>
+							aria-controls="home" aria-selected="true">Day 01 (Learning Day)</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item col-md-6 px-0">
 						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-							aria-controls="profile" aria-selected="false">Day 02</a>
+							aria-controls="profile" aria-selected="false">Day 02 (Hacking Day)</a>
 					</li>
 				</ul>
 
@@ -202,58 +200,52 @@
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>0900 - 0930</h5>
+								<h5>0900 - 1000</h5>
 								<h4 class="my-0">Opening Keynote</h4>
+								<p>Introduction to Competition Theme</p>
 								<p>Speech by: Lee Keifer</p>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>0930 - 1000</h5>
-								<h4 class="mb-0">Brief on the event flow, ground rules, etc.</h4>
-								<p>Speech by: Mark weins</p>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
 								<h5>1000 - 1200</h5>
-								<h4 class="mb-0">First Workshop</h4>
-								<p>e.g. Introduction to Programming / Coding</p>
+								<h4 class="mb-0">1st Workshop: Introduction to Programming/Coding</h4>
+								<p>*Subject to change</p>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
 								<h5>1200 - 1300</h5>
-								<h4 class="mb-0">LUNCH</h4>
+								<h4 class="mb-0">Lunch</h4>
+							</div>
+						</div>
+						<div class="media border-bottom">
+							<div class="media-body">
+								<h5>1300 - 1500</h5>
+								<h4 class="mb-0">2nd Workshop: Hands-on coding to build something simple along the line of theme</h4>
+								<p>*Subject to change</p>
 							</div>
 						</div>
 						<!--======-->
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1300 - 1500</h5>
-								<h4 class="mb-0">Second Workshop</h4>
-								<p>e.g. Hands-on coding to build something simple along the line of theme</p>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
 								<h5>1500 - 1600</h5>
-								<h4 class="mb-0">Tea and Mingle Time</h4>
+								<h4 class="mb-0">Tea Break & Mingle Time</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
 								<h5>1600 - 1800</h5>
-								<h4 class="mb-0">Introduction to Competition Theme</h4>
-								<p>Continuation of Hands-On coding workshop and pairing up with mentor to discuss
-									strategy fo tomorrow.</p>
+								<h4 class="mb-0">- Continuation of Hands-on coding workshop</h4>
+								<h4 class="mb-0">- Pitching Workshop</h4>
+								<h4 class="mb-0">- Pairing up with mentor</h4>
+								<p>*Subject to change</p>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1800 - 1830</h5>
-								<h4 class="mb-0">Closing for first day and participants picked up by guardian / schools.
-								</h4>
+								<h5>1800 - 1300</h5>
+								<h4 class="mb-0">Closing for 1st Day</h4>
 							</div>
 						</div>
 					</div>
@@ -262,50 +254,45 @@
 						<div class="media border-bottom">
 							<div class="media-body">
 								<h5>0800 - 0900</h5>
-								<h4 class="mb-0">Participants re-checkin and mingle time</h4>
+								<h4 class="mb-0">Registration</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>0900 - 1300</h5>
-								<h4 class="mb-0">Start hacking with Mentor in the team</h4>
+								<h5>0900 - 0915</h5>
+								<h4 class="mb-0">Launch of Hackathon!</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1100 - 1130</h5>
-								<h4 class="mb-0">Short workshop on how to pitch</h4>
+								<h5>0915 - 1200</h5>
+								<h4 class="mb-0">Start hacking with mentor</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1300 - 1400</h5>
+								<h5>1200 - 1300</h5>
 								<h4 class="mb-0">LUNCH</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1400 - 1500</h5>
+								<h5>1300 - 1600</h5>
 								<h4 class="mb-0">Continue Hacking</h4>
 							</div>
 						</div>
 						<!--======-->
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1500 - 1700</h5>
-								<h4 class="mb-0">Pitch and Judges' Decision</h4>
+								<h5>1600 - 1730</h5>
+								<h4 class="mb-0">- End of Hackathon!</h4>
+								<h4 class="mb-0">- Pitch and Judges' Decision</h4>
 							</div>
 						</div>
 						<div class="media border-bottom">
 							<div class="media-body">
-								<h5>1700 - 1800</h5>
+								<h5>1730 - 1800</h5>
 								<h4 class="mb-0">Prize Giving, Closing and Photo Time</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1800</h5>
-								<h4 class="mb-0">Departure and End of Event</h4>
 							</div>
 						</div>
 					</div>
@@ -315,8 +302,31 @@
 	</section>
 	<!--================End Event Schedule Area =================-->
 
-	<!--================End Event Schedule Area =================-->
-	<section class="home_map_area">
+	<!--================ Event Sponsors Area =================-->
+
+	<section class="p_120" id="sponsorship">
+		<div class="container">
+			<div class="main_title">
+				<h2>Sponsorships</h2>
+				<!-- <p>1stDayHack is currently looking for sponsorships for the hackathon. Please contact if you are interested in sponsoring the event.</p> -->
+				<p>Feel free to checkout our <a href="" target="_blank">sponsorship deck</a> to find out more about what we needed from sponsors</p>
+				<br>
+				<a href="" class="main_btn" style="text-transform: uppercase;">
+					<i class=""></i>I'm interested to sponsor
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!--================ End Event Sponsors Area =================-->
+
+	<!--================ Event Map Area =================-->
+	<!-- <section class="home_map_area">
+		<div class="main_title">
+			<h2>Venue - TBA</h2>
+			<p>We are also looking for <strong>potential venue sponsor</strong> that can hold up to <strong>80 individuals</strong>.</p>
+		</div>
+
 		<iframe id="mapBox2" class="mapBox2"
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15935.43340111699!2d101.6313043!3d3.1321113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd20f8096d5df79c!2sFutureLab!5e0!3m2!1sen!2smy!4v1570039102159!5m2!1sen!2smy"
 			width="100%" height="400" frameborder="0" style="border:0;"></iframe>
@@ -328,7 +338,7 @@
 							<i class="lnr lnr-home"></i>
 						</div>
 						<div class="media-body">
-							<h4>Somewhere, malaysia</h4>
+							<h4>TBA</h4>
 							<p>Address TBA</p>
 						</div>
 					</div>
@@ -338,7 +348,7 @@
 						</div>
 						<div class="media-body">
 							<h4>saturday to sunday</h4>
-							<p>29-31 February, 2019</p>
+							<p>March, 2020</p>
 						</div>
 					</div>
 					<div class="media">
@@ -353,11 +363,11 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<!--================End Event Schedule Area =================-->
+	</section> -->
+	<!--================End Event Map Area =================-->
 
 	<!--================Team Area =================-->
-	<section class="team_area p_120">
+	<section class="team_area p_120" id="team">
 		<div class="container">
 			<div class="main_title">
 				<h2>The Team</h2>
@@ -429,7 +439,8 @@
 				<div class="col-lg-6 offset-lg-1">
 					<div class="welcome_text">
 						<h3>Have a question?</h3>
-						<a href="mailto:1stdayhack@gmail.com" class="main_btn"><i class=""></i>send us a mail</a>
+						<a href="mailto:1stdayhack@gmail.com" class="main_btn" style="text-transform: uppercase;"><i
+								class=""></i>send us a mail</a>
 					</div>
 				</div>
 			</div>
@@ -465,7 +476,6 @@
 	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
 	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
 	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
 	<script src="vendors/flipclock/timer.js"></script>
 	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>

@@ -300,25 +300,13 @@ button:focus {
   margin-top: 8px;
 }
 
-.header_area .navbar .search {
-  font-size: 12px;
-  line-height: 60px;
-  display: inline-block;
-  color: #fff;
-  margin-left: 195px;
-}
-
-.header_area .navbar .search i {
-  font-weight: 600;
-}
-
 .header_area.navbar_fixed .main_menu {
   position: fixed;
   width: 100%;
   top: -70px;
   left: 0;
   right: 0;
-  background-color: white;
+  background-color: #222;
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -1546,6 +1534,7 @@ button:focus {
 }
 
 .home_map_area .home_details .box_home_details {
+  margin-top: 50px;
   background: #fff;
   max-width: 457px;
   float: right;
@@ -3541,10 +3530,6 @@ h6 {
   box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
   padding-top: 45px;
   padding-bottom: 50px;
-}
-
-.event_time_inner .event_text {
-  padding-left: 65px;
 }
 
 .event_time_inner .event_text h3 {
