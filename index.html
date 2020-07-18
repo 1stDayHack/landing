@@ -1,728 +1,289 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/brand/small-logo.png" type="image/png">
-	<title>1stDayHack</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-		integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/animate-css/animate.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1stDayHack 2020</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container box_1620 mb-2">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/brand/logo.png" width="25%"
-							class="d-inline-block align-top" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#tracks">Tracks</a></li>
-							<li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
-							<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-							<li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
-							<li class="nav-item"><a class="nav-link" href="#sponsorship">Sponsorships</a></li>
-							<li class="nav-item"><a class="nav-link" href="#team">The Team</a></li>
-							<li class="nav-item">
-								<a href="#" class="nav-link" style="color: #f5ce2b; cursor: not-allowed;">
-									<strong>Registration Closed</strong>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-1">
+            <!-- <a class="navbar-brand mr-auto" href="index.html">
+                <img id="nav-logo" class="img-fluid" src="assets/brand/logo.png" alt="1stdayhack-logo">    
+            </a> -->
 
-	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="banner_content" style="margin-top: -150px;">
-					<div id="notice">
-						<h4>Notice</h4>
-						<p>
-							Due to the recent increase of Covid-19 cases in Malaysia, the 1stDayHack team decided to postponed the event relatively to June and July.
-							The team will send e-mails to registered participants and announce it in Social Media.
-						</p>
-					</div>
-					<br>
-					<h2>1st Day Hack</h2>
-					<h3>Malaysia's First Highschool Machine Learning Hackathon</h3>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Home Banner Area =================-->
+            <span>
+                <a href="index.html">
+                    <img id="nav-logo" class="img-fluid" src="assets/brand/logo.png" alt="1stdayhack-logo">    
 
-	<!--================Event Time Area =================-->
-	<section class="event_time_area">
-		<div class="container">
-			<div class="event_time_inner">
-				<div class="row">
-					<div class="col-lg-12 col-md-12">
-						<div class="timer_inner">
-							<div class="event_text">
-								<h3 class="text-pink">Taylor's University Lakeside Campus</h3>
-							</div>
-							<div style="color: #43c0f6; text-align: center;">
-								<h2 style="text-transform: uppercase;">
-									Happening tentatively between June and July 2020
-								</h2>
-							</div>
-							<!-- <div id="timer" class="timer">
-								<div class="timer__section days">
-									<div class="timer__number" style="color: #43c0f6"></div>
-									<div class="timer__label">days</div>
-								</div>
-								<div class="timer__section hours">
-									<div class="timer__number" style="color: #43c0f6"></div>
-									<div class="timer__label">hours</div>
-								</div>
-								<div class="timer__section minutes">
-									<div class="timer__number" style="color: #43c0f6"></div>
-									<div class="timer__label">Minutes</div>
-								</div>
-								<div class="timer__section seconds">
-									<div class="timer__number" style="color: #43c0f6"></div>
-									<div class="timer__label">seconds</div>
-								</div>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Event Time Area =================-->
+                </a>
+            </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<!--================Welcome Area =================-->
-	<section class="welcome_area pad_btm" id="about">
-		<div class="container">
-			<div class="welcome_inner row">
-				<div class="col-lg-5">
-					<div class="welcome_img">
-						<img class="img-fluid" src="img/general/what-is-1stdayhack.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1">
-					<div class="welcome_text">
-						<h3>What is 1stDayHack?</h3>
-						<p style="text-align: justify;">
-							<strong class="text-pink">1stDayHack</strong> is one of the few hackathons in Malaysia that
-							caters only to secondary high school students. We want to inspire, engage and give hands-on
-							experience to the next generation of Malaysian youths in the cutting edge of modern
-							computing technology - <strong class="text-pink">Machine Learning (ML) </strong>. 60 students from
-							various schools, public and private, across <strong class="text-pink">2 days to learn and
-								develop softwares</strong> that are highly practical and technologically sophisticated,
-							not merely a coding exercise. Included in the program are various talks, dedicated workshops
-							and tutorials to provide sufficient foundation in topics such as fundamentals of programming
-							and product design. In addition, a <strong class="text-pink">dedicated mentor will be
-								assigned to each team</strong> to guide them throughout the entire experience.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Welcome Area =================-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="learning_resources.html">Learning Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">The Team</a>
+                    </li>
+                    <li id="inner-join-btn" class="nav-item">
+                        <a href="https://forms.gle/E88wyd2319uGY7vC7" target="_blank"><button class="btn btn-secondary my-2 my-sm-0" type="button">Register for Updates</button></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-	<section class="welcome_area pad_btm" id="tracks">
-		<div class="container">
-			<div class="main_title">
-				<h2>Tentative Tracks</h2>
-				<p style="text-align: justify;"> The theme for the hackathon will be <strong>Practical Machine Learning.</strong> Therefore, 1stDayHack will be a problem-centric hackathon. 
-					Each team will first choose a particular topical issue from a pre-defined pool of affairs that their products and solutions will address.
-					Thereafter, the participants will work alongside their teammates and team-mentor to ideate and rapidly prototype a Machine Learning based
-					solution with their learnings from earlier workshops, and by leveraging on a set of pre-prepared ML-toolkit. More importantly, the teams 
-					will need to be able to create a compelling pitch deck and deliver a thoughtful pitch to show how their products and solutions will help 
-					address the issue that they have set out to tackle. The following are some examples of what the participants will be able to create on the day.
-					<i>More details and specifics of the tracks and tools will be provided in the weeks leading up to 1stDayHack and during the hackathon brief on the
-					day itself.</i>
-				</p>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="single-defination" align="center">
-						<img class="mb-4" src="img/topic/1.png" width="50%" />
-						<h4 class="mt-4">Online social media sentiment analysis with Natural Language Processing (NLP)
-						</h4>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="single-defination" align="center">
-						<img class="mb-4" src="img/topic/2.png" width="50%" />
-						<h4 class="mt-4">Highly competitive object classifier with Deep Convolutional Neural Networks
-						</h4>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="single-defination" align="center">
-						<img class="mb-4" src="img/topic/3.png" width="50%" />
-						<h4 class="mt-4">Automated web crawler for online products aggregation and analysis</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="top" style="background-color:#565979;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-5">
+                    <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_HaoAoi.json"
+                        background="transparent" speed="1" style="width: 400; height: 400;" loop autoplay></lottie-player>
+                </div>
+    
+                <div class="col-lg-6 mt-5">
+                    <h1 style="font-weight: 700;">1stDayHack 2020</h1>
+                    <p class="lead">
+                        1stDayHack is a week-long online Machine Learning (ML) hackathon designed for high school students in Malaysia. Students will learn not only to build new solution but to apply them on real world problems.
+                    </p>
+                    <br>
+                    <h6 class="font-weight-normal">Held virtually. 5th to 13th December 2020.</h6>
+                    <p class="small-text">Registraion is yet to open, please sign up to receive updates.</p>
+                    <br>
+                    <a href="https://forms.gle/E88wyd2319uGY7vC7" target="_blank">
+                        <button class="btn btn-secondary btn-lg text-uppercase mb-2" type="button">Register for Updates</button>
+                    </a>
+                    <a href="#sponsors">
+                        <button class="btn btn-secondary btn-lg text-uppercase mb-2" type="button">sponsor us</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!--================Event Schedule Area =================-->
-	<section class="event_schedule_area p_120" id="schedule">
-		<div class="container">
-			<div class="main_title">
-				<h2>Event Schedule</h2>
-			</div>
-			<div class="event_schedule_inner">
-				<ul class="nav nav-tabs row mx-0 text-center" id="myTab" role="tablist">
-					<li class="nav-item col-md-6 px-0">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-							aria-controls="home" aria-selected="true">Day 01 (Learning Day)</a>
-					</li>
-					<li class="nav-item col-md-6 px-0">
-						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-							aria-controls="profile" aria-selected="false">Day 02 (Hacking Day)</a>
-					</li>
-				</ul>
+    <section id="how-it-works" class="pad-btm pad-top">
+        <div class="container">
+            <h1 class="font-weight-bold mb-5">Learn. Build. Innovate.</h1>
 
-				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>0800 - 0900</h5>
-								<h4 class="my-0">Registration and drop-off by schools / parents</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>0900 - 1000</h5>
-								<h4 class="my-0">Opening Keynote</h4>
-								<p>Introduction to Competition Theme</p>
-								<p>Speech by: Lee Keifer</p>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1000 - 1200</h5>
-								<h4 class="mb-0">1st Workshop: Introduction to Programming with Python</h4>
-								<p>*Subject to change</p>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1200 - 1300</h5>
-								<h4 class="mb-0">Lunch</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1300 - 1500</h5>
-								<h4 class="mb-0">2nd Workshop: Introduction to Machine Learning and Building Your First Machine Learning Model.</h4>
-								<p>*Subject to change</p>
-							</div>
-						</div>
-						<!--======-->
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1500 - 1600</h5>
-								<h4 class="mb-0">Tea Break & Mingle Time</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1600 - 1800</h5>
-								<h4 class="mb-0">- Continuation of Hands-on coding workshop</h4>
-								<h4 class="mb-0">- Pitching Workshop</h4>
-								<h4 class="mb-0">- Pairing up with mentor</h4>
-								<p>*Subject to change</p>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1800 - 1300</h5>
-								<h4 class="mb-0">Closing for 1st Day</h4>
-							</div>
-						</div>
-					</div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card how-it-works-card">
+                        <div class="card-body">
+                            <img src="assets/2nd Section/Learn.svg" alt="learning image">
+                            <h5 class="card-title font-weight-bold">Learn</h5>
+                            <p class="card-text">
+                                Students will have a week long to learn from online resources and guidance from mentors with their fellow team members.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>0800 - 0900</h5>
-								<h4 class="mb-0">Registration</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>0900 - 0915</h5>
-								<h4 class="mb-0">Launch of Hackathon!</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>0915 - 1200</h5>
-								<h4 class="mb-0">Start hacking with mentor</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1200 - 1300</h5>
-								<h4 class="mb-0">LUNCH</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1300 - 1600</h5>
-								<h4 class="mb-0">Continue Hacking</h4>
-							</div>
-						</div>
-						<!--======-->
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1600 - 1730</h5>
-								<h4 class="mb-0">- End of Hackathon!</h4>
-								<h4 class="mb-0">- Pitch and Judges' Decision</h4>
-							</div>
-						</div>
-						<div class="media border-bottom">
-							<div class="media-body">
-								<h5>1730 - 1800</h5>
-								<h4 class="mb-0">Prize Giving, Closing and Photo Time</h4>
-							</div>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Event Schedule Area =================-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card how-it-works-card">
+                        <div class="card-body">
+                            <img src="assets/2nd Section/Build.svg" alt="building image">
+                            <h5 class="card-title font-weight-bold">Build</h5>
+                            <p class="card-text">
+                                Students get to build their own Machine Learning prototype and gather feedback from mentors during the 1 week long period before heading on to showcase their products in the final pitching competition. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-	<!--================ FAQ Area =================-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card how-it-works-card">
+                        <div class="card-body">
+                            <img src="assets/2nd Section/Innovate.svg" alt="innovate image">
+                            <h5 class="card-title font-weight-bold">Innovate</h5>
+                            <p class="card-text">
+                                Students will also be exposed to cutting-edge technologies and shown how to create innovative solutions that addresses real-world problems with them.
+                                <!-- are also encourage to brainstorm whether their solution is really helping to make the world a better place. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<section class="p_120" id="faq">
-		<div class="container">
-			<div class="main_title">
-				<h2>FAQ</h2>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Am I elligible for the Hackathon?</h4>
-					<p align="justify">
-						1stDayHack is open to all secondary school students ranging from the age of 14 to 18. The miminum age is enforced as
-						we estimate that the materials will be too difficult for students below said age. We recommend that participants register
-						as a group as the hackathon requires partipants to work in a team of 5, though individuals are welcomed too. 
-						We will match up the individual participants without a team on the day itself according to the availability.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>I am a school teacher. How can I sign my students up?</h4>
-					<p align="justify">
-						Please sign up with the form as provided under<b> Where can I sign up? </b>. The hackathon will be conducted based on
-						a team system with 5 students per team. Therefore, you are encouraged to form the teams amongst your students first 
-						before signing up. You can register more than 1 team from your school.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Do I need to pay to participate?</h4>
-					<p align="justify">
-						Yes, a fee of RM 20 per participant is required on sign-up. We have endeavored to make this as cheap as possible as our 
-						intention is to educate. The fee affords us sufficient finances just to cover our operational costs. We do not take 
-						any profit from the fees.				
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Where can I sign up?</h4>
-					<p align="justify">
-						You can initiate the sign-up process by completing this <a href = https://forms.gle/JvCzNAvmj4u2Ufyq6>form</a> for schools, and
-						this <a href = https://forms.gle/qyvYaekVHmWEgcDP9> form </a> for individual participants.
-						Thereafter, we will reach out to you to follow up on the payment, administrative requirements and/or group arrangements as 
-						part of the standard procedure. Please allow us a few days to reach out to you and feel free to contact us through our email 
-						during this period.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>How can I make the payment?</h4>
-					<p align="justify">
-						Payment can be made through direct bank transfers to our Maybank account. For security purposes, details of said bank account will 
-						be emailed directly to you upon completing the sign-up form. We understand that you could be wary of
-						direct account transactions, but this allows us to minimize transactions charges usually incured by third-party 
-						channels. If you require any further verification for your ease of mind, feel free to reach out to us through our email
-						and we would be happy to help.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Will accommdation or transportation be provided?</h4>
-					<p align="justify">
-						No, accommdation and transportation will have to be accounted for by the teacher/parent/guardian of the participants.
-						There are various lodgings available around the Taylor's Lakeside Campus as it is right next to the Sunway region. 
-						Teacher/parent/guardian are expected to drop-off and pick-up their charges at the beginning and end of both day.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Will meals be provided?</h4>
-					<p  align="justify">
-						No, meals will not be provided but teacher/parent/guardian will not need worry on the availability of food and beverages.
-						There are many restaurants, cafes and convenient stores available on campus that will be able to cater to your catering needs.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>What do I need to bring?</h4>
-					<p   align="justify" >
-						Each participants will need to bring along their <b>own laptop and chargers</b> for the hackathon. Other materials such as pen 
-						and paper are not compulsory but recommended. Please also ensure that each participant brings along their <b>IC or student ID
-						card</b> for verification purposes.
-					</p >
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>How can I prepare my child or students for the hackathon?</h4>
-					<p   align="justify" >
-						It is highly recommended that the participant be comfortable with basic computing and computer programming, especially in utilizing
-						the Python programming language. Knowledge of Machine Learning though vastly helpful, will not be required. We will provide a list of 
-						curated resources that could help you get them started on our website soon.
-					</p >
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>As a Teacher/Parent/Guardian, can I stay to observe my charges?</h4>
-					<p   align="justify" >
-						Yes you can. We may limit the amount of observers per party on the day itself according to the availability of venue space.
-					</p >
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>When will registrations close?</h4>
-					<p   align="justify" >
-						We will close registration two week from the hackathon itself.
-					</p >
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>Questions not in FAQ</h4>
-					<p   align="justify" >
-						Please reach out to us through our email at 1stdayhack@gmail.com for any further inquiries.
-					</p >
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="prizes" class="pad-btm pad-top" style="background-color:#565979;">
+        <div class="container">
+            <h1 class="font-weight-bold mb-5">The Prizes!</h1>
 
-	<!--================ End FAQ Area =================-->
+            <div class="row" style="color: #565979;">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="card text-center mb-3">
+                        <div class="card-body">
+                            <img src="assets/prizes-badge/2nd Prize Badge.svg" alt="2nd Prize Badge">
+                           
+                            <h4 class="font-weight-bold">2nd Prize</h4>
+                             <h5>750 MYR</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="card text-center mb-3">
+                        <div class="card-body">
+                            <img src="assets/prizes-badge/1st Prize Badge.svg" alt="1st Prize Badge">
+                            
+                            <h4 class="font-weight-bold" style="color: #f5cd2d;">1st Prize</h4>
+                            <h5>1250 MYR</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="card text-center mb-3">
+                        <div class="card-body">
+                            <img src="assets/prizes-badge/3rd Prize Badge.svg" alt="3rd Prize Badge">
+                           
+                            <h4 class="font-weight-bold" style="color: #be812b;">3rd Prize</h4>
+                             <h5>500 MYR</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- <!-- <p>*Please note that the prizes above are tentative and may be subjected to alterations.</p> --> -->
+            </div>
+        </div>
+        
+    </section>
 
-	<!--================ Recommended Resources Area =================-->
+    <section id="sponsors" class="pad-btm pad-top text-center">
+        <div class="container">
+            <h1 class="font-weight-bold mb-5">Beloved Partners & Sponsors</h1>
 
-	<section class="p_120" id="resources">
-		<div class="container">
-			<div class="main_title">
-				<h2>Recommended Resources</h2>
-				<p>Please note the following are optional - parents and teachers that would want to better prepare their child for the hackathon
-					could get them started first with the following resources.
-				</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>[Core]<br>Python Programming</h4>
-					<p align="justify">
-						This is the most important pre-requisite that we recommend each participant to pay heed to. We will have a simple workshop 
-						that will provide a crash course on this topic during the first day of 1stDayHack. However, it will still be much more conducive
-						if each participant brushes up on the topic before attending the hackathon.
-						<br> <br>
-						We recommend any one of the following resources for self-studying Python Programming.
-						<ul>
-							<li><a href= https://www.learnpython.org/>LearnPython</a>(Free, Medium Difficulty)</li>
-							<li><a href= https://www.codecademy.com/learn/learn-python-3>CodeAcademy</a>(Paid, Easy Difficulty)</li>
-							<li><a href= https://www.datacamp.com/courses/intro-to-python-for-data-science>DataCamp</a>(Paid, Easy Difficulty)</li>
-						</ul>
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>[Core]<br>Programming with Jupyter-Notebooks</h4>
-					<p align="justify">
-						For 1stDayHack, we will be using Jupyter-Notebook based kernels (programming environment) for the lessons and development.
-						Specifically, <a href = https://www.kaggle.com/kernels>Kaggle's Kernel</a> will be our main programming environment as 
-						Kaggle provides up to 30 hours of FREE GPU hours on powerful NVIDIA GPUs - useful for ML development.
-						<br> <br>
-						We recommend the following resources to get familiar with Notebook-based enviroments.
-						<ul>
-							<li><a href= https://jupyter.org//>Jupyter's homepage.</a> Useful references.</li>
-							<li><a href= https://www.dataquest.io/blog/jupyter-notebook-tutorial/>DataQuest's</a> quick intro to Jupyter-Notebooks.</li>
-							<li><a href= https://www.kaggle.com/kernels>Sample Kaggle Kernels</a>. Try executing pre-written codes and models in 
-								Kaggle's Kernel directly.
-							</li>
-						</ul>
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>[Secondary]<br>Fundamentals of Machine Learning</h4>
-					<p align="justify">
-						This is a highly optional recommendation as most of the Machine Learning materials online may be too difficult for secondary
-						students to read up alone. However, if you are technically competent, feel free to give them a go!
-						<br> <br>
-						We recommend any one of the following resources for self-studying introductory Machine Learning.
-						<ul>
-							<li><a href= https://www.kaggle.com/learn/intro-to-machine-learning/>Kaggle's</a> intro to ML (Free, Easy Difficulty)</li>
-							<li><a href= https://developers.google.com/machine-learning/crash-course/ml-intro>Google's</a> own crash course. Much
-								more complete than Kaggle's (Free, Hard Difficulty)</li>
-							<li><a href= https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html>PyTorch's</a> getting started in Deep Learning
-								with PyTorch (Free, Very Hard Difficulty)</li>
-						</ul>
-					</p>
-				</div>
-				<!-- <div class="col-lg-4 col-md-4 col-sm-12">
-					<h4>[Secondary] Creating Applications with Python</h4>
-					<p align="justify">
-						This is the most important pre-requisite that we recommend each participant to pay heed to. We will have a simple workshop 
-						that will provide a crash course on this topic during the first day of 1stDayHack. However, it will still be much more conducive
-						if each participant brushes up on the topic before attending the hackathon.
-						<br> <br>
-						We recommended the following resources for self-studying Python Programming.
-						<ul>
-							<li><a href= https://www.learnpython.org/>LearnPython</a>(Free,Medium Difficulty)</li>
-							<li><a href= https://www.codecademy.com/learn/learn-python-3>CodeAcademy</a>(Paid,Easy Difficulty)</li>
-							<li><a href= https://www.datacamp.com/courses/intro-to-python-for-data-science>DataCamp</a>(Paid, Easy Difficulty)</li>
-						</ul>
-					</p>
-				</div> -->
-			</div>
-		</div>
-	</section>
+            <br>
 
-	<!--================ End Recommended Resources Area =================-->
+            <h4 class="mb-4 font-weight-bold">Beloved Partner</h4>
+            <br>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <a href="https://mymagic.my/">
+                        <img id="magic-logo" class="img-fluid" src="assets/sponsors/MaGIC Logo.svg" alt="MaGIC">
+                    </a>
+                </div>
+            </div>
 
-	<!--================ Event Sponsors Area =================-->
+            <br>
+            <br>
+            
+            <h4 class="mb-4 font-weight-bold">Sponsors</h4>
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <a href="https://www.silverlakeaxis.com/">
+                        <img class="sponsor-img" src="assets/sponsors/silverlake_rsz.png" alt="Silverlake">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <a href="https://taylors.edu.my/">
+                        <img class="sponsor-img" src="assets/sponsors/taylors_rsz.png" alt="Taylor's University">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <a href="https://taylors.edu.my/">
+                        <img class="sponsor-img" src="assets/sponsors/tuav_rsz.png" alt="Tuav">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <a href="https://www.jetbrains.com/community/education/">
+                        <img class="sponsor-img" src="assets/sponsors/jetbrains_rsz.png" alt="Jetbrains">
+                    </a>
+                </div>
+            </div>
 
-	<section class="p_120" id="sponsorship">
-		<div class="container">
-			<div class="main_title">
-				<h2>Our Awesome Sponsors and Partner</h2>
-<br>
-				<h3>Beloved Partner</h3>
-<br>
-				<div class="row sponsors_inner">
-					<div class="col-lg-12 col-sm-12">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="https://mymagic.my/">
-									<img class="img-fluid" src="img/sponsors/MaGIC Logo.svg" width="30%" alt="MaGIC">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
+            <br>
 
-				<h3>Awesome Sponsors</h3>
-<br>
-				<div class="row sponsors_inner">
-					<!-- <div class="col-lg-3 col-sm-6">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="http://taylors.edu.my/">
-									<img class="img-fluid" src="img/sponsors/silverlake.svg" width="90%" alt="Silverlake">
-								</a>
-							</div>
-						</div>
-					</div> -->
-					<div class="col-lg-3 col-sm-6">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="http://www.silverlakeaxis.com/">
-									<img class="img-fluid" src="img/sponsors/silverlake_rsz.png" width="90%" alt="Silverlake">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="http://taylors.edu.my/">
-									<img class="img-fluid" src="img/sponsors/taylors_rsz.png" width="90%" alt="Taylor's University">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="http://taylors.edu.my/">
-									<img class="img-fluid" src="img/sponsors/tuav_rsz.png" width="90%" alt="Taylor's University Unmanned Aerial Vehicle Research Group">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="sponsors_item">
-							<div class="sponsors_img">
-								<a href="https://www.jetbrains.com/student/">
-									<img class="img-fluid" src="img/sponsors/jetbrains_rsz.png" width="90%" alt="JetBrains">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
+            <h4 class="font-weight-bold">Interested in sponsoring us?</h4>
+            <p>
+                <!-- Feel free to checkout our <a href="assets/1stdayhack.pdf" target="_blank">sponsorship deck</a> or send us an email at <a href="mailto:1stdayhack@gmail.com">1stdayhack@gmail.com</a> for more information. -->
+                We will be delighted to collaborate with you in bringing greater impact to the Malaysian Youth community! Just send us an email at <a href="mailto:1stdayhack@gmail.com">1stdayhack@gmail.com</a> and we will get back to you with more information in a jiffy!
+            </p>
+        </div>
+    </section>
 
-			</br>
-				<!-- <p>1stDayHack is currently looking for sponsorships for the hackathon. Please contact if you are interested in sponsoring the event.</p> -->
-				<p>Feel free to checkout our <a href="1stdayhack.pdf" target="_blank">sponsorship deck</a> to find out more about how you can help make 1stDayHack a big success</p>
-				<br>
-				<a href="mailto:1stdayhack@gmail.com" class="main_btn" style="text-transform: uppercase;">
-					I'm interested to sponsor
-				</a>
-			</div>
-		</div>
-	</section>
+    <section id="question" class="pad-btm pad-top" style="background-color:#f5cd2d;">
+        <div class="container">
+            <h1 class="font-weight-bold mb-3">Interested in becoming a mentor for 1stDayHack?</h1>
+            <a href="https://forms.gle/HFE7iL8xzTEamegZA" target="_blank">
+                <button class="btn btn-primary btn-lg text-uppercase" type="button">register as mentor</button>
+            </a>
+        </div>
+    </section>
 
-	<!--================ End Event Sponsors Area =================-->
+    <footer class="pt-4 pb-md-5 pt-md-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img src="assets/brand/small-logo.png" width="40" height="40" alt="1stDayHack">
+                    <small class="d-block mb-3 text-muted">© 2020</small>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="list-unstyled text-small">
+                        <h5>Resources</h5>
+                        <li>
+                            <a class="text-muted" href="faq.html">Frequently Asked Questions</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="learning_resources.html">Learning Resources</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="schedule.html">Scheduling</a>
+                        </li>
 
-	<!--================Team Area =================-->
-	<section class="team_area p_120" id="team">
-		<div class="container">
-			<div class="main_title">
-				<h2>The Team</h2>
-				<p>1stDayHack is created by 4 young peeps who are passionate about educating people on technology and
-					design.</p>
-			</div>
-			<div class="row team_inner">
-				<div class="col-lg-4 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img class="img-fluid" src="img/team/cs.jpg" width="100%" alt="">
-							<div class="hover">
-								<a href="https://www.facebook.com/cheesengleong"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://www.linkedin.com/in/cheesengleong/"><i class="fab fa-linkedin-in"></i></a>
-							</div>
-						</div>
-						<div class="team_name pt-3">
-							<h4>Chee Seng Leong</h4>
-							<p>UI/UX Designer</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img class="img-fluid" src="img/team/keif.jpg" width="100%" alt="">
-							<div class="hover">
-								<a href="https://www.facebook.com/danny.lee.58367"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://www.instagram.com/lee_keifer/"><i class="fab fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/in/keiferlee/"><i class="fab fa-linkedin-in"></i></a>
-							</div>
-						</div>
-						<div class="team_name pt-3">
-							<h4>Lee Keifer</h4>
-							<p>Machine Learning Engineer</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img class="img-fluid" src="img/team/ed.jpeg" width="100%" alt="">
-							<div class="hover">
-								<a href="https://my.linkedin.com/in/edmondyap-changemaker/"><i class="fab fa-linkedin-in"></i></a>
-							</div>
-						</div>
-						<div class="team_name pt-3">
-							<h4>Edmond Yap</h4>
-							<p>Corporate and Public Relations Director</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img class="img-fluid" src="img/team/fam.jpg" width="100%" alt="">
-							<div class="hover">
-								<a href="https://www.facebook.com/fahimabdullah02"><i class="fab fa-facebook-f"></i></i></a>
-								<a href="https://www.instagram.com/fahimabdullahh/"><i class="fab fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/in/fahim-abdullah/"><i class="fab fa-linkedin-in"></i></a>
-							</div>
-						</div>
-						<div class="team_name pt-3">
-							<h4>Fahim Abdullah</h4>
-							<p>Product Developer</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Team Area =================-->
+                        <!-- <li>
+                            <a class="text-muted" href="">1stDayHack Hacking Kit</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="list-unstyled text-small">
+                        <h5>About Us</h5>
+                        <li>
+                            <a class="text-muted" href="team.html">The Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </footer>
 
-	<section class="welcome_area p_120">
-		<div class="container">
-			<div class="welcome_inner row">
-				<div class="col-lg-5">
-					<div class="welcome_img">
-						<img class="img-fluid" src="img/general/contact-us.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1">
-					<div class="welcome_text">
-						<h3>Have a question?</h3>
-						<a href="mailto:1stdayhack@gmail.com" class="main_btn" style="text-transform: uppercase;"><i
-								class=""></i>send us a mail</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!--================ start footer Area  =================-->
-	<footer class="footer-area">
-		<div class="container">
-			<div class="row footer-bottom d-flex justify-content-between align-items-center">
-				<p class="col-lg-8 col-md-8 footer-text m-0">Created with <i class="fas fa-heart"></i> by 1stDayHack
-					Team</p>
-				<div class="col-lg-4 col-md-4 footer-social">
-					<a href="#"><i class="fab fa-facebook-f"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================ End footer Area  =================-->
-
-
-
-
-
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/flipclock/timer.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

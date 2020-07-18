@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Resources</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body style="background-color:#f5987f;">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-1">
+            <!-- <a class="navbar-brand mr-auto" href="index.html">
+                <img id="nav-logo" class="img-fluid" src="assets/brand/logo.png" alt="1stdayhack-logo">    
+            </a> -->
+
+            <span>
+                <a href="index.html">
+                    <img id="nav-logo" class="img-fluid" src="assets/brand/logo.png" alt="1stdayhack-logo">
+                </a>
+            </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="learning_resources.html">Learning Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">The Team</a>
+                    </li>
+                    <li id="inner-join-btn" class="nav-item">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="button">register as participant</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="learning-resources">
+        <div class="container mt-5 pad-top pad-btm">
+
+            <h1 class="font-weight-bold mb-5 text-center">Learning Resources</h1>
+
+            <div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Python Programming</h5>
+                            <p class="card-text">
+                                This is the most important pre-requisite that we recommend each participant to pay heed to. We will have a simple workshop 
+                                that will provide a crash course on this topic during the week-long learning period through video tutorials. 
+                                However, it will still be much more conducive if each participant brushes up on the topic before attending the hackathon.
+                            </p>
+                            <a href="https://www.learnpython.org" class="card-link">LearnPython</a>
+                            <a href="https://www.codecademy.com/learn/learn-python-3" class="card-link">Codeacademy</a>
+                            <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science" class="card-link">Intro to Python for Data Sciences</a>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Programming with Jupyter-Notebooks</h5>
+                            <p class="card-text">
+                                For 1stDayHack, we will be using Jupyter-Notebook based kernels (programming environment) for the lessons and development.
+						        Specifically, <a href = https://www.kaggle.com/kernels>Kaggle's Kernel</a> will be our main programming environment as 
+						        Kaggle provides up to 30 hours of FREE GPU hours on powerful NVIDIA GPUs - useful for ML development.
+                            </p>
+                            <a href="https://jupyter.org/" class="card-link">Jupyter Notebooks</a>
+                            <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial" class="card-link">Quick Intro to Jupyter-Notebooks</a>
+                            <a href="https://www.kaggle.com/kernels" class="card-link">Kaggle Kernels</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Fundamentals of Machine Learning</h5>
+                            <p class="card-text">
+                                This is a highly optional recommendation as most of the Machine Learning materials online may be too difficult for secondary
+						        students to read up alone. However, if you are technically competent, feel free to give them a go!
+                            </p>
+                            <a href="https://www.kaggle.com/learn/intro-to-machine-learning" class="card-link">Intro to Machine Learning</a>
+                            <a href="https://developers.google.com/machine-learning/crash-course/ml-intro" class="card-link">Google's Crashcourse on Machine Learning</a>
+                            <a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html" class="card-link">PyTorch</a>
+
+                        </div>
+                    </div>
+                </div>
+				<!-- <div class="col-lg-4 col-md-4 col-sm-12">
+					<h4>[Secondary] Creating Applications with Python</h4>
+					<p align="justify">
+						This is the most important pre-requisite that we recommend each participant to pay heed to. We will have a simple workshop 
+						that will provide a crash course on this topic during the first day of 1stDayHack. However, it will still be much more conducive
+						if each participant brushes up on the topic before attending the hackathon.
+						<br> <br>
+						We recommended the following resources for self-studying Python Programming.
+						<ul>
+							<li><a href= https://www.learnpython.org/>LearnPython</a>(Free,Medium Difficulty)</li>
+							<li><a href= https://www.codecademy.com/learn/learn-python-3>CodeAcademy</a>(Paid,Easy Difficulty)</li>
+							<li><a href= https://www.datacamp.com/courses/intro-to-python-for-data-science>DataCamp</a>(Paid, Easy Difficulty)</li>
+						</ul>
+					</p>
+				</div> -->
+			</div>
+        </div>
+    </section>
+
+    <footer class="pt-4 pb-md-5 pt-md-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img src="assets/brand/small-logo.png" width="40" height="40" alt="1stDayHack">
+                    <small class="d-block mb-3 text-muted">© 2020</small>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="list-unstyled text-small">
+                        <h5>Resources</h5>
+                        <li>
+                            <a class="text-muted" href="faq.html">Frequently Asked Questions</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="learning_resources.html">Learning Resources</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="schedule.html">Scheduling</a>
+                        </li>
+
+                        <!-- <li>
+                            <a class="text-muted" href="">1stDayHack Hacking Kit</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="list-unstyled text-small">
+                        <h5>About Us</h5>
+                        <li>
+                            <a class="text-muted" href="team.html">The Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+</html>
